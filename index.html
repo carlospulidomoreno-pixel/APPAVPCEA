@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APP Protección Civil de El Arenal</title>
+  <!-- Enlace al manifiesto de la app -->
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+  <h1>Herramienta de Emergencias</h1>
+  <!-- Aquí va la interfaz de tu herramienta -->
+
+  <script>
+    // Registrar el Service Worker para hacerla PWA
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js')
+        .then(() => console.log('¡App lista para usarse offline!'))
+        .catch((err) => console.log('Fallo al registrar:', err));
+    }
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>
