@@ -1,13 +1,13 @@
 # APPAVPCEA
 
-APPAVPCEA es una aplicación diseñada para gestionar, visualizar y procesar datos de manera eficiente.  
-Incluye módulos para análisis, reportes y automatización de tareas.
+APPAVPCEA es una aplicación desarrollada en HTML, CSS y JavaScript.  
+Su objetivo es ofrecer una plataforma ligera, rápida y accesible para visualizar y gestionar información.
 
 ## 🚀 Características
-- Gestión de datos
-- Visualización interactiva
-- Procesamiento automatizado
-- Arquitectura modular
+- Interfaz basada en HTML5
+- Estilos modernos con CSS3
+- Funcionalidad dinámica con JavaScript
+- Estructura modular y fácil de mantener
 
 ## 📦 Instalación
 ```bash
