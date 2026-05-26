@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0d6efd">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <titlePrueba APP AVPCEA</title>
 </head>
+  <script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/service-worker.js");
+  }
+  </script>
 <body>
   <h1>Hola, soy tu Web App AVPCEA</h1>
   <p>Funciona en móviles y está alojada en GitHub Pages.</p>
